@@ -4,7 +4,6 @@ import { menu, close, logo } from "./assets";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => setToggle(!toggle);
-
   return (
     <div className="w-full h-[80px] z-10 bg-white fixed drop-shadow-lg">
       <div className="flex justify-between items-center w-full h-full md:max-w-[1240px] m-auto">
