@@ -14,7 +14,6 @@ const Navbar = () => {
             className="sm:ml-10 ss:ml-10 md:ml-3 opacity-[55%] w-full h-[25px]"
           />
         </div>
-
         <div className="flex items-center">
           <ul className="hidden md:flex">
             <li>Home</li>
