@@ -29,7 +29,6 @@ const Navbar = () => {
           </button>
           <button className="px-8 py-3">Sign Up</button>
         </div>
-
         <div className="md:hidden" onClick={handleClick}>
           <img
             src={!toggle ? menu : close}
