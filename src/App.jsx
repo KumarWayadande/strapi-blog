@@ -23,7 +23,6 @@ const Navbar = () => {
             <li>Pricing</li>
           </ul>
         </div>
-
         <div className="hidden md:flex sm:mr-10 md:mr-10">
           <button className="border-none bg-transparent text-black mr-4">
             Login
