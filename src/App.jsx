@@ -1,5 +1,10 @@
-import HomePage from "./components/pages/HomePage";
+import { HomePage, BlogContentPage } from "./components/pages/index";
 
 export default function App() {
-  return <HomePage />;
+  return (
+    <>
+      {/* <HomePage /> */}
+      <BlogContentPage />
+    </>
+  );
 }
