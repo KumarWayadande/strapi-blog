@@ -1,12 +1,5 @@
-import { Footer, Blogs, Navbar } from "../index";
-const HomePage = () => {
-  return (
-    <div>
-      <Navbar />
-      <Blogs />
-      <Footer />
-    </div>
-  );
+const BlogContent = () => {
+  return <>BlogContent;</>;
 };
 
-export default HomePage;
+export default BlogContent;
