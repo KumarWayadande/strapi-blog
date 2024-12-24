@@ -1,4 +1,4 @@
 import BlogContentPage from "./BlogContentPage";
-import HomePage from "./HomePage";
+import Homepage from "./HomePage";
 
-export { BlogContentPage, HomePage };
+export { BlogContentPage, Homepage };

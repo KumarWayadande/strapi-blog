@@ -473,6 +473,7 @@ export interface ApiAuthorAuthor extends Struct.CollectionTypeSchema {
 export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
   collectionName: 'blogs';
   info: {
+    description: '';
     displayName: 'Blogs';
     pluralName: 'blogs';
     singularName: 'blog';
@@ -481,6 +482,11 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    authorImg: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    authorName: Schema.Attribute.String;
     blogDesc: Schema.Attribute.Text;
     blogEditor: Schema.Attribute.Blocks;
     blogEditorMarkDown: Schema.Attribute.RichText;

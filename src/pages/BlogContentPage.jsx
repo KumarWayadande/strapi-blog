@@ -1,13 +1,13 @@
-import { Navbar, Footer } from "../components/index";
+import { Navbar, Blogs, Footer } from "../components";
 
-const BlogContentPage = () => {
+const Homepage = ({ blogs }) => {
   return (
-    <>
+    <div>
       <Navbar />
-      contents for blog
+      <Blogs blogs={blogs} />
       <Footer />
-    </>
+    </div>
   );
 };
 
-export default BlogContentPage;
+export default Homepage;
