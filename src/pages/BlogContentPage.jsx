@@ -1,13 +1,16 @@
-import { Navbar, Blogs, Footer } from "../components";
 
-const Homepage = ({ blogs }) => {
+import { Navbar, Footer, BlogContent } from "../components"
+
+const BlogContentPage = ({blogs}) => {
+  console.log(blogs)
+  
   return (
     <div>
       <Navbar />
-      <Blogs blogs={blogs} />
+      <BlogContent blogs={blogs}/>       
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Homepage;
+export default BlogContentPage

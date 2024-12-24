@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Blogs = ({ blogs }) => {
-  console.log("Blog Object");
-  console.log(blogs);
 
   const blogs1 = [
     {
@@ -55,14 +53,14 @@ const Blogs = ({ blogs }) => {
               <div className="bg-white rounded-xl overflow-hidden drop-shadow-md">
                 <img
                   className="h-56 w-full object-cover"
-                  src={`http://localhost:1337${blog.attributes.coverImg.data.attributes.url}`}
+                  src={`http://localhost:1337${blog.coverImg.url}`}
                 />
                 <div className="p-8">
                   <h3 className="font-bold text-2xl my-1">
-                    {blog.attributes.blogTitle}
+                    {blog.blogTitle}
                   </h3>
                   <p className="text-gray-600 text-xl">
-                    {blog.attributes.blogDesc}
+                    {blog.blogDesc}
                   </p>
                 </div>
               </div>
