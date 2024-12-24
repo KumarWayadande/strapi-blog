@@ -1,8 +1,6 @@
 
 const BlogContent = () => {
   return (
-    <div>
-      
   )
 }
 
