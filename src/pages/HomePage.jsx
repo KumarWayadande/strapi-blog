@@ -1,4 +1,4 @@
-import { Footer, Blogs, Navbar } from "../index";
+import { Footer, Blogs, Navbar } from "../components/index";
 const HomePage = () => {
   return (
     <div>
